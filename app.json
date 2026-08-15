@@ -1,15 +1,15 @@
 {
   "expo": {
     "name": "Quira",
-    "slug": "quira",
+    "slug": "quiracompi",
     "owner": "jeandeveloper23",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo.webp",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "automatic",
     "jsEngine": "hermes",
     "splash": {
-      "image": "./assets/logo.webp",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#000000"
     },
@@ -19,13 +19,13 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.webp",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#000000"
       },
       "package": "com.jeanfuentes.quira"
     },
     "web": {
-      "favicon": "./assets/logo.webp"
+      "favicon": "./assets/logo.png"
     },
     "plugins": [
       [
@@ -47,7 +47,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "2a0a32d8-6a5b-41ff-a2ce-bb959d6e19fd"
+        "projectId": "be8a2e17-93d7-46bc-9803-c87a626a53b8"
       }
     }
   }
