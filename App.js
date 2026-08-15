@@ -28,7 +28,7 @@ export default function App() {
   
   const [isDarkMode, setIsDarkMode] = useState(true);
   
-  // Animación de fundido (fade) para el cambio de modo
+  // Animación de fundido para el cambio de modo
   const fadeAnim = useRef(new Animated.Value(1)).current;
 
   const toggleTheme = () => {
@@ -81,7 +81,7 @@ export default function App() {
         {/* Header */}
         <View style={styles.header}>
           <Image
-            source={require('./assets/logo.webp')}
+            source={require('./assets/logo.png')}
             style={styles.logo}
             resizeMode="contain"
           />
