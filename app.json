@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Quira",
+    "slug": "quira",
+    "owner": "jeandeveloper23",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.webp",
+    "userInterfaceStyle": "automatic",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/logo.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jeanfuentes.quira"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.webp",
+        "backgroundColor": "#000000"
+      },
+      "package": "com.jeanfuentes.quira"
+    },
+    "web": {
+      "favicon": "./assets/logo.webp"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableMinifyInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "enableProguardInReleaseBuilds": true,
+            "abiFilters": ["arm64-v8a"]
+          }
+        }
+      ]
+    ],
+    "sdkVersion": "51.0.0",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2a0a32d8-6a5b-41ff-a2ce-bb959d6e19fd"
+      }
+    }
+  }
+}
